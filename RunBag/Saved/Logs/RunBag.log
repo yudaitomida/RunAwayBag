@@ -755,3 +755,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.24-05.36.19:905][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.08.24-05.36.19:906][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
 [2020.08.24-05.36.19:980][339]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.08.24-05.50.15:456][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.24-05.50.21:790][283]LogAIModule: Creating AISystem for world PlayScene
+[2020.08.24-05.50.21:795][283]LogAssetEditorManager: Opening Asset editor for World /Game/Play/PlayScene.PlayScene
+[2020.08.24-05.50.21:814][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.08.24-05.50.21:815][283]Cmd: MAP LOAD FILE="../../../../../UE4Projects/新しいフォルダー/RunBag/Content/Play/PlayScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.24-05.50.21:815][283]LightingResults: New page: ライティングのビルド
+[2020.08.24-05.50.21:815][283]LoadErrors: New page: マップをロード中: PlayScene.umap
+[2020.08.24-05.50.21:815][283]LogWorld: UWorld::CleanupWorld for TitleScene, bSessionEnded=true, bCleanupResources=true
+[2020.08.24-05.50.21:816][283]MapCheck: New page: マップをチェック
+[2020.08.24-05.50.21:816][283]LightingResults: New page: <何も選択されていません>
+[2020.08.24-05.50.21:833][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.08.24-05.50.21:835][283]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.24-05.50.21:853][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.08.24-05.50.21:871][283]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.24-05.50.21:871][283]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.059ミリ秒かかりました。
+[2020.08.24-05.50.21:871][283]LogFileHelpers: Loading map 'PlayScene' took 0.057
