@@ -691,3 +691,67 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.24-05.17.43:155][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.08.24-05.17.43:157][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
 [2020.08.24-05.17.43:229][957]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.08.24-05.26.37:625][148]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={7B79AFA9-4013-2431-41C2-1C8F0EB95607}
+[2020.08.24-05.35.52:907][111]LogTemp: Repeating last play command: 選択ビューポート
+[2020.08.24-05.35.52:917][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Title/TitleScene.TitleScene:PersistentLevel' has LevelScriptBlueprint '/Game/Title/TitleScene.TitleScene:PersistentLevel.TitleScene' with GeneratedClass '/Game/Title/TitleScene.TitleScene_C' with ClassGeneratedBy '/Game/Title/TitleScene.TitleScene:PersistentLevel.TitleScene'
+[2020.08.24-05.35.52:917][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.24-05.35.52:917][111]PIE: New page: PIEセッション: TitleScene (2020/08/24 23:35:52)
+[2020.08.24-05.35.52:917][111]LogPlayLevel: Creating play world package: /Game/Title/UEDPIE_0_TitleScene
+[2020.08.24-05.35.52:918][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001177s)
+[2020.08.24-05.35.52:919][111]LogAIModule: Creating AISystem for world TitleScene
+[2020.08.24-05.35.52:919][111]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2020.08.24-05.35.52:919][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Title/TitleScene.TitleScene to /Game/Title/UEDPIE_0_TitleScene.TitleScene (0.002111s)
+[2020.08.24-05.35.52:938][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.08.24-05.35.52:949][111]LogInit: XAudio2 using 'PLE2483H (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.08.24-05.35.52:959][111]LogInit: FAudioDevice initialized.
+[2020.08.24-05.35.52:967][111]LogLoad: Game class is 'GameModeBase'
+[2020.08.24-05.35.52:969][111]LogWorld: Bringing World /Game/Title/UEDPIE_0_TitleScene.TitleScene up for play (max tick rate 0) at 2020.08.24-14.35.52
+[2020.08.24-05.35.52:969][111]LogWorld: Bringing up level for play took: 0.000259
+[2020.08.24-05.35.52:969][111]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.08.24-05.35.52:971][111]PIE: /Game/Title/UEDPIE_0_TitleScene 0.629のプレイ イン エディタの開始時間
+[2020.08.24-05.35.52:971][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Title/TitleScene.TitleScene:PersistentLevel' has LevelScriptBlueprint '/Game/Title/TitleScene.TitleScene:PersistentLevel.TitleScene' with GeneratedClass '/Game/Title/TitleScene.TitleScene_C' with ClassGeneratedBy '/Game/Title/TitleScene.TitleScene:PersistentLevel.TitleScene'
+[2020.08.24-05.35.56:021][477]LogNet: Browse: /Game/Play/PlayScene
+[2020.08.24-05.35.56:021][477]LogLoad: LoadMap: /Game/Play/PlayScene
+[2020.08.24-05.35.56:021][477]LogWorld: BeginTearingDown for /Game/Title/UEDPIE_0_TitleScene
+[2020.08.24-05.35.56:021][477]LogWorld: UWorld::CleanupWorld for TitleScene, bSessionEnded=true, bCleanupResources=true
+[2020.08.24-05.35.56:042][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.08.24-05.35.56:050][477]LogAIModule: Creating AISystem for world PlayScene
+[2020.08.24-05.35.56:050][477]LogLoad: Game class is 'GameModeBase'
+[2020.08.24-05.35.56:051][477]LogWorld: Bringing World /Game/Play/UEDPIE_0_PlayScene.PlayScene up for play (max tick rate 0) at 2020.08.24-14.35.56
+[2020.08.24-05.35.56:052][477]LogWorld: Bringing up level for play took: 0.000740
+[2020.08.24-05.35.56:052][477]LogLoad: Took 0.032038 seconds to LoadMap(/Game/Play/PlayScene)
+[2020.08.24-05.35.59:029][834]LogNet: Browse: /Game/Result/ResultScene
+[2020.08.24-05.35.59:029][834]LogLoad: LoadMap: /Game/Result/ResultScene
+[2020.08.24-05.35.59:029][834]LogWorld: BeginTearingDown for /Game/Play/UEDPIE_0_PlayScene
+[2020.08.24-05.35.59:029][834]LogWorld: UWorld::CleanupWorld for PlayScene, bSessionEnded=true, bCleanupResources=true
+[2020.08.24-05.35.59:048][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.08.24-05.35.59:054][834]LogAIModule: Creating AISystem for world ResultScene
+[2020.08.24-05.35.59:054][834]LogLoad: Game class is 'GameModeBase'
+[2020.08.24-05.35.59:054][834]LogWorld: Bringing World /Game/Result/UEDPIE_0_ResultScene.ResultScene up for play (max tick rate 0) at 2020.08.24-14.35.59
+[2020.08.24-05.35.59:054][834]LogWorld: Bringing up level for play took: 0.000268
+[2020.08.24-05.35.59:054][834]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.08.24-05.35.59:055][834]LogLoad: Took 0.027309 seconds to LoadMap(/Game/Result/ResultScene)
+[2020.08.24-05.36.02:029][191]LogNet: Browse: /Game/Title/TitleScene
+[2020.08.24-05.36.02:030][191]LogLoad: LoadMap: /Game/Title/TitleScene
+[2020.08.24-05.36.02:030][191]LogWorld: BeginTearingDown for /Game/Result/UEDPIE_0_ResultScene
+[2020.08.24-05.36.02:030][191]LogWorld: UWorld::CleanupWorld for ResultScene, bSessionEnded=true, bCleanupResources=true
+[2020.08.24-05.36.02:049][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.08.24-05.36.02:049][191]LogPlayLevel: Creating play world package: /Game/Title/UEDPIE_0_TitleScene
+[2020.08.24-05.36.02:049][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001030s)
+[2020.08.24-05.36.02:050][191]LogAIModule: Creating AISystem for world TitleScene
+[2020.08.24-05.36.02:050][191]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2020.08.24-05.36.02:050][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Title/TitleScene.TitleScene to /Game/Title/UEDPIE_0_TitleScene.TitleScene (0.001800s)
+[2020.08.24-05.36.02:050][191]LogLoad: Game class is 'GameModeBase'
+[2020.08.24-05.36.02:050][191]LogWorld: Bringing World /Game/Title/UEDPIE_0_TitleScene.TitleScene up for play (max tick rate 0) at 2020.08.24-14.36.02
+[2020.08.24-05.36.02:050][191]LogWorld: Bringing up level for play took: 0.000226
+[2020.08.24-05.36.02:051][191]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.08.24-05.36.02:052][191]LogLoad: Took 0.023171 seconds to LoadMap(/Game/Title/UEDPIE_0_TitleScene)
+[2020.08.24-05.36.19:878][330]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Title/TitleScene.TitleScene:PersistentLevel' has LevelScriptBlueprint '/Game/Title/TitleScene.TitleScene:PersistentLevel.TitleScene' with GeneratedClass '/Game/Title/TitleScene.TitleScene_C' with ClassGeneratedBy '/Game/Title/TitleScene.TitleScene:PersistentLevel.TitleScene'
+[2020.08.24-05.36.19:879][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.24-05.36.19:879][330]LogWorld: BeginTearingDown for /Game/Title/UEDPIE_0_TitleScene
+[2020.08.24-05.36.19:879][330]LogWorld: UWorld::CleanupWorld for TitleScene, bSessionEnded=true, bCleanupResources=true
+[2020.08.24-05.36.19:884][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.24-05.36.19:885][330]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Title/TitleScene.TitleScene:PersistentLevel' has LevelScriptBlueprint '/Game/Title/TitleScene.TitleScene:PersistentLevel.TitleScene' with GeneratedClass '/Game/Title/TitleScene.TitleScene_C' with ClassGeneratedBy '/Game/Title/TitleScene.TitleScene:PersistentLevel.TitleScene'
+[2020.08.24-05.36.19:905][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.24-05.36.19:906][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.08.24-05.36.19:980][339]LogPlayLevel: Display: Destroying online subsystem :Context_3
